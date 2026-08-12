@@ -1,0 +1,11 @@
+System Requirements Document
+
+The new customer portal must provide self-service capabilities for account management.
+
+Users should be able to update their profile information including name, email, phone number, and billing address without contacting support.
+
+The system must send email notifications for all account changes for security purposes.
+
+Password reset functionality must be available via email with a secure token that expires after 1 hour.
+
+All user data must be encrypted at rest and in transit using industry-standard encryption protocols.

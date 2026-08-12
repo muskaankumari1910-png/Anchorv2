@@ -1,0 +1,15 @@
+Interviewer (00:00:05): Hello, thank you for meeting with me today. Can you tell me about the main requirements for the new authentication system?
+
+Stakeholder (00:00:15): Sure. We need a robust login system that supports multiple authentication methods. Specifically, we need username and password, but also multi-factor authentication.
+
+Interviewer (00:00:35): What type of MFA are you looking for?
+
+Stakeholder (00:00:42): We want SMS-based codes and support for authenticator apps like Google Authenticator. Also, users should be able to choose their preferred method.
+
+Interviewer (00:01:05): Got it. Any requirements around password policies?
+
+Stakeholder (00:01:12): Yes, passwords must be at least 12 characters long, include uppercase, lowercase, numbers, and special characters. We also need password expiration every 90 days for compliance.
+
+Interviewer (00:01:35): What about session management?
+
+Stakeholder (00:01:40): Sessions should timeout after 30 minutes of inactivity. But users should be able to enable "remember me" for trusted devices, which extends the session to 30 days.
